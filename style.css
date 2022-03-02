@@ -228,6 +228,19 @@ input[class="search"] {
     /* cursor: pointer; */
 }
 
+.card button {
+    font-size: 0.8em;
+    color: white;
+    background-color: rgb(255, 255, 255, 0);
+    border: var(--standard-border);
+    border-radius: var(--standard-border-radius);
+    padding: 0.8vw 1.7vw;
+    cursor: pointer;
+    /* display: grid; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+
 .footer {
     color: rgb(255, 255, 255);
     grid-column: 1 / -1;

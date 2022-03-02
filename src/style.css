@@ -63,7 +63,7 @@ body, html {
 
 .title {
     font-size: 1.5em;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .sidebar>ul {
@@ -209,6 +209,15 @@ input[class="search"] {
     background-color: var(--card-bg-color);
     height: 100%;
     width: 90%;
+    text-overflow: ellipsis;
+    overflow: auto;
+    font-size: 16px;
+}
+
+.projectTitle {
+    font-size: 1.4em;
+    font-weight: 900;
+    text-decoration: underline;
 }
 
 .card:hover {

@@ -1,4 +1,5 @@
 import './style.css';
+require('./style.css');
 
 import personImage from './images/person_portrait_wt.svg';
 import documentIcon from './images/document_icon_wt.svg';

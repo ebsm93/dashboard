@@ -1,4 +1,4 @@
-import './style.css';
+// import './style.css';
 // require('./style.css');
 
 import personImage from './images/person_portrait_wt.svg';

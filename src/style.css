@@ -19,13 +19,13 @@ body, html {
     --standard-border-radius: 20px;
     color: white;
     --standard-box-shadow: -3px 3px 5px rgb(245, 240, 240);
-    --hover-box-shadow: -6px 6px 5px rgb(245, 240, 240);
+    --hover-box-shadow: -7px 7px 7px rgb(245, 240, 240);
     --bg-gradient: linear-gradient(to left,
-        black,
+        rgb(39, 36, 36),
         hsl(205, 20%, 57%) 50%,
         hsl(205, 20%, 57%) 40%,
         hsl(205, 20%, 57%) 65%,
-        black
+        rgb(51, 48, 48)
   );
 
     --card-bg-color: linear-gradient rgb(180, 162, 132);
@@ -76,18 +76,32 @@ body, html {
     justify-content: space-around;
 }
 
-.sidebar-item {
+.sidebar button {
+    font-size: 0.8em;
+    color: white;
+    background-color: rgb(255, 255, 255, 0);
     border: var(--standard-border);
     border-radius: var(--standard-border-radius);
     padding: 0.8vw 1.7vw;
     cursor: pointer;
-    display: grid;
+    /* display: grid; */
     display: flex;
+    align-items: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar button:hover {
+    box-shadow: inset 3px 3px 3px white;
+    text-decoration: underline 1px;
 }
 
 .icon {
     margin-right: 0.5vw;
-    height: 40px;
+    height: 40px; 
+
 }
 
 ul>li {
@@ -198,6 +212,8 @@ input[class="search"] {
 }
 
 .card:hover {
+    height: 105%;
+    width: 95%;
     box-shadow: var(--hover-box-shadow);
     /* cursor: pointer; */
 }

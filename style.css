@@ -222,19 +222,21 @@ input[class="search"] {
 }
 
 .card:hover {
-    height: 105%;
-    width: 95%;
+    /* height: 105%; */
+    /* width: 95%; */
     box-shadow: var(--hover-box-shadow);
     /* cursor: pointer; */
 }
 
 .card button {
-    font-size: 0.8em;
+
+    font-size: calc(0.8em + 0.1vh);
+    width: 40%;
     color: white;
     background-color: rgb(255, 255, 255, 0);
     border: var(--standard-border);
     border-radius: var(--standard-border-radius);
-    padding: 0.8vw 1.7vw;
+    padding: 1.5vh 1.7vw;
     cursor: pointer;
     /* display: grid; */
     /* display: flex; */

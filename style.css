@@ -22,9 +22,10 @@ body, html {
     --hover-box-shadow: -7px 7px 7px rgb(245, 240, 240);
     --bg-gradient: linear-gradient(to left,
         rgb(39, 36, 36),
-        hsl(205, 20%, 57%) 50%,
+        hsl(205, 20%, 57%) 30%,
         hsl(205, 20%, 57%) 40%,
-        hsl(205, 20%, 57%) 65%,
+        hsl(205, 20%, 57%) 50%,
+        hsl(205, 20%, 57%) 70%,
         rgb(51, 48, 48)
   );
 
@@ -147,7 +148,18 @@ ul>li {
 }
 
 button {
+      user-select: text;
+}
+
+.buttonText {
     cursor: pointer;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.buttonText:hover {
+    cursor: text;
 }
 
 .nav button {
@@ -201,6 +213,7 @@ input[class="search"] {
 }
 
 .card {
+    padding-top: 1vh;
     display: grid;
     justify-self: center;
     border: var(--standard-border);

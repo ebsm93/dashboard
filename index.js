@@ -3,7 +3,20 @@
 
 
 
+const contactBtn = document.getElementById('contact');
 
+contactBtn.addEventListener('click', contact);
+
+function contact() {
+    contactBtn.textContent = '';
+    contactBtn.style.display = 'flex';
+    contactBtn.style.flexDirection = 'column';
+    contactBtn.style.gap = '1vh';
+    contactBtn.style.fontSize = '0.6em';
+    contactBtn.style.cursor = 'pointer';
+    contactBtn.innerHTML ='<div class="buttonText">email: ebs.m93@gmail.com</div><div class="buttonText">phone: 415.466.5952</div>';
+
+}
 
 
 

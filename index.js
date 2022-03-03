@@ -9,6 +9,7 @@ contactBtn.addEventListener('click', contact);
 
 function contact() {
     contactBtn.textContent = '';
+
     contactBtn.style.display = 'flex';
     contactBtn.style.flexDirection = 'column';
     contactBtn.style.gap = '1vh';

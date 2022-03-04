@@ -7,6 +7,7 @@
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=EB+Garamond:ital@1&display=swap');
 
 body, html {
     
@@ -32,7 +33,6 @@ body, html {
     --card-bg-color: linear-gradient rgb(180, 162, 132);
     background-color: black;
 
-    font-family: 'Roboto', sans-serif;
 }
 
 /* #about::before {
@@ -40,6 +40,7 @@ body, html {
 } */
 
 .main-wrapper {
+    font-family: 'Roboto', sans-serif;
     font-size: var(--modal-font-size);
     height: 100%;
     display: grid;
@@ -69,7 +70,10 @@ body, html {
 }
 
 .title {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    font-family: 'Bodoni Moda', serif;
+    padding: 5px;
+    /* font-family: 'EB Garamond', serif; */
     /* text-decoration: underline; */
 }
 
@@ -141,8 +145,9 @@ ul>li {
 .greeting {
     grid-column: 1;
     grid-row: 2;
-    font-size: 1.3em;
-    text-decoration: underline;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.2em;
+    text-decoration: underline 1px;
     padding: 1.2vw;
 }
 
@@ -217,6 +222,7 @@ input[class="search"] {
 }
 
 .dashboard>p {
+    font-family: 'Bodoni Moda', serif;
     font-size: 1.8em;
     margin: 1.2vw;
     margin-top: 0;

@@ -164,6 +164,7 @@ ul>li {
 
 button {
       user-select: text;
+      transition: box-shadow 0.3s;
 }
 
 .buttonText {
@@ -242,6 +243,7 @@ input[class="search"] {
     text-overflow: ellipsis;
     overflow: auto;
     font-size: 16px;
+    transition: box-shadow 0.5s;
 }
 
 .projectTitle {
